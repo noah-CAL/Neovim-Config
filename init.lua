@@ -1,5 +1,7 @@
 -- Installed latest Neovim 'nightly' version for Debian WSL2 
 --		1) Install FUSE package (and RIPGREP for Telescope grep)
+--			 RIPGREP for Telescope grep
+--			 Node.js for Github Copilot (https://nodejs.org/en/download/)
 --		2) Download the Neovim nightly appimage from Github
 --		3) chmod u+x the appimage and ./___ to install with FUSE
 --		4) Rename appimage to "nvim" and move to /usr/local/bin
