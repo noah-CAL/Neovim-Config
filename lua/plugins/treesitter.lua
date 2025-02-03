@@ -15,6 +15,7 @@ return {
 				"tmux",
 				"verilog",
 			},
+			auto_install = true,  -- Auto-install if encountering new language
 			highlight = { enable = true },
 			indent = { enable = true },
 		})
