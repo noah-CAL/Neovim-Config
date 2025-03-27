@@ -14,12 +14,12 @@ vim.g.maplocalleader = "\\"
 
 
 vim.keymap.set("n", "<c-t>", ":tabnew\n", {})
-vim.keymap.set("n", "<c-w>", ":tabclose\n", {})
+vim.keymap.set("n", "<leader>w", ":tabclose\n", {})
 vim.keymap.set("n", "<Tab>", ":tabn\n", {})
 vim.keymap.set("n", "<S-Tab>", ":tabp\n", {})
 
 -- TOhtml keymap
-vim.keymap.set("n", "<Leader>th", 
+vim.keymap.set("n", "<Leader>th",
 	function()
 		local filename = string.gsub(vim.api.nvim_buf_get_name(0), vim.loop.cwd().."/", '')
 		local html = require("tohtml").tohtml(0, {
