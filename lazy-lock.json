@@ -2,6 +2,7 @@
   "catppuccin": { "branch": "main", "commit": "4965db2d6155c25db4e8417465fc2703fdf4c2b7" },
   "cyberdream": { "branch": "main", "commit": "5b42c2e6764312c166c25bc79dfcbaadac2d5425" },
   "gruvbox": { "branch": "main", "commit": "68c3460a5d1d1a362318960035c9f3466d5011f5" },
+  "harpoon": { "branch": "harpoon2", "commit": "ed1f853847ffd04b2b61c314865665e1dadf22c7" },
   "kanagawa": { "branch": "master", "commit": "988082eb00b845e4afbcaa4fd8e903da8a3ab3b9" },
   "lazy.nvim": { "branch": "main", "commit": "7527af40ddd4a93a02911be570b32609b9d4ea53" },
   "lualine.nvim": { "branch": "master", "commit": "2a5bae925481f999263d6f5ed8361baef8df4f83" },
