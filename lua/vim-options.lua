@@ -14,7 +14,7 @@ vim.g.maplocalleader = "\\"
 
 
 vim.keymap.set("n", "<c-t>", ":tabnew\n", {})
-vim.keymap.set("n", "<leader>w", ":tabclose\n", {})
+vim.keymap.set("n", "<c-w>w", ":tabclose\n", {})
 vim.keymap.set("n", "<Tab>", ":tabn\n", {})
 vim.keymap.set("n", "<S-Tab>", ":tabp\n", {})
 
