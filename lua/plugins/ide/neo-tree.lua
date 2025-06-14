@@ -8,9 +8,12 @@ return {
 	},
 	config = function()
 		-- For full list of configs: https://github.com/nvim-neo-tree/neo-tree.nvim
-		vim.keymap.set("n", "\\",  ":Neotree source=filesystem position=right reveal=true action=show toggle<CR>")
-		vim.keymap.set("n", "<C-g>", ":Neotree source=git_status position=float<CR>")
-		vim.keymap.set("n", "<C-b>", ":Neotree source=buffers position=float<CR>")
-	end
+		vim.keymap.set("n", "<leader>b", ":Neotree source=buffers position=float<CR>", { desc = "Buffers" })
+		vim.keymap.set(
+			"n",
+			"\\",
+			":Neotree source=filesystem position=right reveal=true action=show toggle<CR>",
+			{ desc = "Neotree Open" }
+		)
+	end,
 }
-

@@ -2,7 +2,7 @@ return {
 	"zaldih/themery.nvim",
 	lazy = false,
 	config = function()
-		vim.keymap.set("n", "<C-n>", ":Themery<cr>")
+		vim.keymap.set("n", "<C-n>", ":Themery<cr>", { desc = "Themery Color Wheel" })
 		require("themery").setup({
 			livePreview = true,
 			-- add themes here!
