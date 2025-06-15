@@ -1,4 +1,5 @@
 {
+  "Comment.nvim": { "branch": "master", "commit": "e30b7f2008e52442154b66f7c519bfd2f1e32acb" },
   "catppuccin": { "branch": "main", "commit": "fa42eb5e26819ef58884257d5ae95dd0552b9a66" },
   "conform.nvim": { "branch": "master", "commit": "8132ec733eed3bf415b97b76797ca41b59f51d7d" },
   "cyberdream": { "branch": "main", "commit": "f660ebfd8840e226d2a5368e08108a7aa84fef36" },
@@ -9,6 +10,7 @@
   "lualine.nvim": { "branch": "master", "commit": "a94fc68960665e54408fe37dcf573193c4ce82c9" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "463e5e7441c17c0f9fba35b3016e7691a78983b9" },
   "mason.nvim": { "branch": "main", "commit": "253961cfe9b0a63b2524088be294acd7522366e5" },
+  "mini.indentscope": { "branch": "main", "commit": "5fdc3edf7bb1b6365980c2c47dac2f19ec93c97b" },
   "moonfly": { "branch": "master", "commit": "ff822100c5d268e0db79e8e725cbd3ade3470de3" },
   "neo-tree.nvim": { "branch": "v3.x", "commit": "f481de16a0eb59c985abac8985e3f2e2f75b4875" },
   "nui.nvim": { "branch": "main", "commit": "de740991c12411b663994b2860f1a4fd0937c130" },
