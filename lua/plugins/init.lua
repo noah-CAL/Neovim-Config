@@ -1,5 +1,6 @@
 return {
 	{ import = "plugins.colorschemes" },
-	{ import = "plugins.lsp" },
+	{ import = "plugins.cosmetics" },
 	{ import = "plugins.ide" },
+	{ import = "plugins.lsp" },
 }

@@ -1,3 +1,4 @@
+-- Mini.nvim plugin
 return {
 	"echasnovski/mini.indentscope",
 	config = function()
@@ -5,11 +6,11 @@ return {
 		indentscope.setup({
 			draw = {
 				-- Delay (in ms) between event and start of drawing scope indicator
-				delay = 100,
+				delay = 0,
 
 				-- 2ms time to draw each line
 				animation = function(s, n)
-					return 2
+					return 0
 				end,
 				--minidoc_replace_end
 
