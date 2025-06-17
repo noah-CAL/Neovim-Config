@@ -1,6 +1,11 @@
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
+-- Neovim general configuration options
+
+-- Set defaults to Spaces according to Google coding style
+vim.cmd("set shiftwidth=2") -- 2-space indents, always spaces
+vim.cmd("set expandtab") -- only use spaces, never tabs
+vim.cmd("set tabstop=4 softtabstop=0") -- increase width of tabs
+
+-- General Vim settings
 vim.cmd("set relativenumber")
 vim.cmd("set number")
 vim.cmd("set noswapfile")
@@ -33,4 +38,4 @@ end, { desc = "Current Page-to-HTML" })
 -- LSP Diagnostic Placements
 -- Virtual Text: text to the right of the line
 -- Virtual Lines: T/F | { current_line = T/F }: diagnostics below line
-vim.diagnostic.config({ virtual_text = true}) --, virtual_lines = { current_line = true}, })
+vim.diagnostic.config({ virtual_text = true }) --, virtual_lines = { current_line = true}, })

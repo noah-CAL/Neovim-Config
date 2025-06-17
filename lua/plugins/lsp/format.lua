@@ -2,7 +2,7 @@ return {
 	"stevearc/conform.nvim",
 	opts = {},
 	config = function()
-		conform = require("conform")
+		local conform = require("conform")
 
 		conform.setup({
 			-- formatters by "filetype"
@@ -15,6 +15,13 @@ return {
 				riscv = { "asmfmt" },
 			},
 		})
+
+		conform.formatters["clang-format"] = {
+			prepend_args = {
+				"--style=file", -- load from .clang-format file (in CWD or parent directory)
+				"--fallback-style=llvm", -- Google style is CPPlint's default
+			},
+		}
 
 		-- mp for "make pretty"
 		vim.keymap.set({ "n", "v" }, "<leader>mp", function()
