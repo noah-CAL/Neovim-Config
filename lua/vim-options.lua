@@ -29,3 +29,8 @@ vim.keymap.set("n", "<Leader>th", function()
 	vim.api.nvim_open_win(bufid, true, { split = "above" })
 	vim.api.nvim_set_option_value("modified", false, { buf = bufid }) -- so there's no "No save since last write for [new name]"
 end, { desc = "Current Page-to-HTML" })
+
+-- LSP Diagnostic Placements
+-- Virtual Text: text to the right of the line
+-- Virtual Lines: T/F | { current_line = T/F }: diagnostics below line
+vim.diagnostic.config({ virtual_text = true}) --, virtual_lines = { current_line = true}, })
